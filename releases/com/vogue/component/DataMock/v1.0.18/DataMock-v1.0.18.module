@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vogue.component",
+    "module": "DataMock",
+    "version": "v1.0.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "DataMock-v1.0.18.aar",
+          "url": "DataMock-v1.0.18.aar",
+          "size": 66372,
+          "sha512": "4207dd855f867ab54f9e1893c929af3329b2c92a0497976bd453278836c7f7112da29ab939f11f65cb358bfd2b1beff8c3dba6f17dbd109942fd52514c2ba7f3",
+          "sha256": "74f5d096e742c0d2947fffc7150980ecc4e0dde161ae82a8a4ebcdc8cadc1718",
+          "sha1": "c63c00b206aa3e747814f6a4c60781757c2e166a",
+          "md5": "48acde8a0941224b5aaad3e8ed93ebf4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DataMock-v1.0.18.aar",
+          "url": "DataMock-v1.0.18.aar",
+          "size": 66372,
+          "sha512": "4207dd855f867ab54f9e1893c929af3329b2c92a0497976bd453278836c7f7112da29ab939f11f65cb358bfd2b1beff8c3dba6f17dbd109942fd52514c2ba7f3",
+          "sha256": "74f5d096e742c0d2947fffc7150980ecc4e0dde161ae82a8a4ebcdc8cadc1718",
+          "sha1": "c63c00b206aa3e747814f6a4c60781757c2e166a",
+          "md5": "48acde8a0941224b5aaad3e8ed93ebf4"
+        }
+      ]
+    }
+  ]
+}

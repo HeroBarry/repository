@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vogue.component",
+    "module": "VogueUpdate",
+    "version": "v1.0.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VogueUpdate-v1.0.18.aar",
+          "url": "VogueUpdate-v1.0.18.aar",
+          "size": 103203,
+          "sha512": "9c01937668638b111c0930898d67c870a1281ded8f084842f3f621016094ecbea7aee23e70627ed317edd9ed4317dd982f8e53172044f5bb6d303ba421bdf83d",
+          "sha256": "3753a30e22ed5bd40b52c242b0282bdc58d4f4ad00a0c7a9dbdbc1f891ddcf6f",
+          "sha1": "628b17102c3dbb8768d74480df8713745ca086b1",
+          "md5": "714aea2d21c0595842b4f13630af4a3d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VogueUpdate-v1.0.18.aar",
+          "url": "VogueUpdate-v1.0.18.aar",
+          "size": 103203,
+          "sha512": "9c01937668638b111c0930898d67c870a1281ded8f084842f3f621016094ecbea7aee23e70627ed317edd9ed4317dd982f8e53172044f5bb6d303ba421bdf83d",
+          "sha256": "3753a30e22ed5bd40b52c242b0282bdc58d4f4ad00a0c7a9dbdbc1f891ddcf6f",
+          "sha1": "628b17102c3dbb8768d74480df8713745ca086b1",
+          "md5": "714aea2d21c0595842b4f13630af4a3d"
+        }
+      ]
+    }
+  ]
+}

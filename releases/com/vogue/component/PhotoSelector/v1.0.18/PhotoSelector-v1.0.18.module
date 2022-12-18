@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vogue.component",
+    "module": "PhotoSelector",
+    "version": "v1.0.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "PhotoSelector-v1.0.18.aar",
+          "url": "PhotoSelector-v1.0.18.aar",
+          "size": 52092,
+          "sha512": "a7fa9c1eaf6988f005085a3dd4982f621dfc9bdb828a29d4c9bed1f6242b3ae48b0d9ac825101b9f8dc8d1ece3270793342afb6af9889fb02144ef99b77293a0",
+          "sha256": "cdf5a75bf3609a59981b1c52fb751551803fd667f0b3d8f421a6080941458d2f",
+          "sha1": "64a464f48870f8faefae479c94f536146645f8c6",
+          "md5": "992a17bda495fb9396eba61f14308c00"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "PhotoSelector-v1.0.18.aar",
+          "url": "PhotoSelector-v1.0.18.aar",
+          "size": 52092,
+          "sha512": "a7fa9c1eaf6988f005085a3dd4982f621dfc9bdb828a29d4c9bed1f6242b3ae48b0d9ac825101b9f8dc8d1ece3270793342afb6af9889fb02144ef99b77293a0",
+          "sha256": "cdf5a75bf3609a59981b1c52fb751551803fd667f0b3d8f421a6080941458d2f",
+          "sha1": "64a464f48870f8faefae479c94f536146645f8c6",
+          "md5": "992a17bda495fb9396eba61f14308c00"
+        }
+      ]
+    }
+  ]
+}

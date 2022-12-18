@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vogue.component",
+    "module": "AutoSize",
+    "version": "v1.0.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "AutoSize-v1.0.18.aar",
+          "url": "AutoSize-v1.0.18.aar",
+          "size": 46821,
+          "sha512": "5c5bdb6ee502fde4a992a81bd981a3e446d391382e268aacd21aeb946c17023b3ff38a7790df5dfb74412f9e8b8c635770d248cbbd90459b6c7b42b06d809de8",
+          "sha256": "5f49bec4ffdea373aec2598577e73bfb2822763eae3aa6f50bf9b40d040ce685",
+          "sha1": "fc541f5e62b4444b839f3c1a113a4a415395d9ad",
+          "md5": "9f841d5b2227d9d96c70329dde46e6a7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "AutoSize-v1.0.18.aar",
+          "url": "AutoSize-v1.0.18.aar",
+          "size": 46821,
+          "sha512": "5c5bdb6ee502fde4a992a81bd981a3e446d391382e268aacd21aeb946c17023b3ff38a7790df5dfb74412f9e8b8c635770d248cbbd90459b6c7b42b06d809de8",
+          "sha256": "5f49bec4ffdea373aec2598577e73bfb2822763eae3aa6f50bf9b40d040ce685",
+          "sha1": "fc541f5e62b4444b839f3c1a113a4a415395d9ad",
+          "md5": "9f841d5b2227d9d96c70329dde46e6a7"
+        }
+      ]
+    }
+  ]
+}

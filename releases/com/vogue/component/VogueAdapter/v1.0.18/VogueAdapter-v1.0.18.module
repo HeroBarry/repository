@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vogue.component",
+    "module": "VogueAdapter",
+    "version": "v1.0.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VogueAdapter-v1.0.18.aar",
+          "url": "VogueAdapter-v1.0.18.aar",
+          "size": 130078,
+          "sha512": "b9ca01b2bbc78d26f98ac683c13308eba67ae11c38ad83563d8aa082616ea21af2ddfeaa13400dc14efa1eee7eb64feeebd2e502bea351c79452add45b86d5e6",
+          "sha256": "0b2f89d5beb660e213c4508cdaee7c3062ab05d93e62d13fc01510341cebc5a5",
+          "sha1": "7065bd03feca059c7a2782f54b39d928eb30f13e",
+          "md5": "026a23b24fd3d834889bc7107e0e72f1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-extensions",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.scwang.smartrefresh",
+          "module": "SmartRefreshHeader",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.scwang.smartrefresh",
+          "module": "SmartRefreshLayout",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.github.mmin18",
+          "module": "realtimeblurview",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "com.github.tbruyelle",
+          "module": "rxpermissions",
+          "version": {
+            "requires": "2.x.v0.9.3"
+          }
+        },
+        {
+          "group": "com.github.promeg",
+          "module": "tinypinyin",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "com.github.promeg",
+          "module": "tinypinyin-lexicons-android-cncity",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VogueAdapter-v1.0.18.aar",
+          "url": "VogueAdapter-v1.0.18.aar",
+          "size": 130078,
+          "sha512": "b9ca01b2bbc78d26f98ac683c13308eba67ae11c38ad83563d8aa082616ea21af2ddfeaa13400dc14efa1eee7eb64feeebd2e502bea351c79452add45b86d5e6",
+          "sha256": "0b2f89d5beb660e213c4508cdaee7c3062ab05d93e62d13fc01510341cebc5a5",
+          "sha1": "7065bd03feca059c7a2782f54b39d928eb30f13e",
+          "md5": "026a23b24fd3d834889bc7107e0e72f1"
+        }
+      ]
+    }
+  ]
+}

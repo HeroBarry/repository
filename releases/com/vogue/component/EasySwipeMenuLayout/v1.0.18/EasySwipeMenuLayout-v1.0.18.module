@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vogue.component",
+    "module": "EasySwipeMenuLayout",
+    "version": "v1.0.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "EasySwipeMenuLayout-v1.0.18.aar",
+          "url": "EasySwipeMenuLayout-v1.0.18.aar",
+          "size": 35467,
+          "sha512": "5219b13c918a1532afd76e93326f85b0db986b68be5a4b89aadfe14195b4475d789a919cdd602b119c15ecfa04f3ced0ae906723e1a36e120b3038676a4665cc",
+          "sha256": "11930b6a3fdab7847ab8d65bc48cdd07f4cfdb9b6296caa9218258c839fd04dc",
+          "sha1": "4c8e99dba0c302e73491c7a9c9588c1d0e770d54",
+          "md5": "cade34d0103501b939f7eb2bbd7afb54"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "EasySwipeMenuLayout-v1.0.18.aar",
+          "url": "EasySwipeMenuLayout-v1.0.18.aar",
+          "size": 35467,
+          "sha512": "5219b13c918a1532afd76e93326f85b0db986b68be5a4b89aadfe14195b4475d789a919cdd602b119c15ecfa04f3ced0ae906723e1a36e120b3038676a4665cc",
+          "sha256": "11930b6a3fdab7847ab8d65bc48cdd07f4cfdb9b6296caa9218258c839fd04dc",
+          "sha1": "4c8e99dba0c302e73491c7a9c9588c1d0e770d54",
+          "md5": "cade34d0103501b939f7eb2bbd7afb54"
+        }
+      ]
+    }
+  ]
+}

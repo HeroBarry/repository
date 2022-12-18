@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vogue.component",
+    "module": "NetworkState",
+    "version": "v1.0.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NetworkState-v1.0.18.aar",
+          "url": "NetworkState-v1.0.18.aar",
+          "size": 43961,
+          "sha512": "e6d9141242dd98837caf5c38b68e83ba364d541ebceb5797fe0ec242f323079f8183dd82bc86b6321103431c83efab60666fa0f17b7cb08e00dc22e783ec624f",
+          "sha256": "566114cb4701ac5fecdb12edc99bbfbcaf8b24ee5748430761546e12b47b1b61",
+          "sha1": "5376a71fdcff769a99da1847779937d2a45ce75b",
+          "md5": "478de39134ab52c2b06fb542f5f5906c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NetworkState-v1.0.18.aar",
+          "url": "NetworkState-v1.0.18.aar",
+          "size": 43961,
+          "sha512": "e6d9141242dd98837caf5c38b68e83ba364d541ebceb5797fe0ec242f323079f8183dd82bc86b6321103431c83efab60666fa0f17b7cb08e00dc22e783ec624f",
+          "sha256": "566114cb4701ac5fecdb12edc99bbfbcaf8b24ee5748430761546e12b47b1b61",
+          "sha1": "5376a71fdcff769a99da1847779937d2a45ce75b",
+          "md5": "478de39134ab52c2b06fb542f5f5906c"
+        }
+      ]
+    }
+  ]
+}

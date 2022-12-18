@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vogue.component",
+    "module": "ProgressManager",
+    "version": "v1.0.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ProgressManager-v1.0.18.aar",
+          "url": "ProgressManager-v1.0.18.aar",
+          "size": 27251,
+          "sha512": "c9b899b91e37d7359c0f25f7de4d8e51a918efbaf4aa4548be791a6fe567b9f16f3579866ddbf7004ce1f27897ba8e81a4ace43592652d4d139ea92db7fe43fb",
+          "sha256": "8a9955240f16d7fb7f9bbf7a63ef45c881d11bda20231a0a2706061eefc04e68",
+          "sha1": "4c7d5f21afef1dabdb56ff84250d061e5a57c1c6",
+          "md5": "cd03e815e3d87a3b0b3a92468bcb0057"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ProgressManager-v1.0.18.aar",
+          "url": "ProgressManager-v1.0.18.aar",
+          "size": 27251,
+          "sha512": "c9b899b91e37d7359c0f25f7de4d8e51a918efbaf4aa4548be791a6fe567b9f16f3579866ddbf7004ce1f27897ba8e81a4ace43592652d4d139ea92db7fe43fb",
+          "sha256": "8a9955240f16d7fb7f9bbf7a63ef45c881d11bda20231a0a2706061eefc04e68",
+          "sha1": "4c7d5f21afef1dabdb56ff84250d061e5a57c1c6",
+          "md5": "cd03e815e3d87a3b0b3a92468bcb0057"
+        }
+      ]
+    }
+  ]
+}
