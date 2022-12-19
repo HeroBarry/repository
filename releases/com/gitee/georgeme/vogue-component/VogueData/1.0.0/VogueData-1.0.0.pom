@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gitee.georgeme.vogue-component</groupId>
+  <artifactId>VogueData</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>vogue component</name>
+  <description>Custom Component Library</description>
+  <url>https://gitee.com/georgeme/vogue-component</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>george</name>
+      <email>qiaozhi_china@163.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:gitee.com/georgeme/vogue-component.git</connection>
+    <developerConnection>scm:git:ssh://git@gitee.com/georgeme/vogue-component.git</developerConnection>
+    <url>https://gitee.com/georgeme/vogue-component</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.material</groupId>
+      <artifactId>material</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
